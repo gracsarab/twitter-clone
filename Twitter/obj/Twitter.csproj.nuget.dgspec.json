@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AcademyPgh\\Documents\\Session10c3\\Twitter\\Twitter\\Twitter.csproj": {}
+    "C:\\Users\\AcademyPgh\\Documents\\Academy\\Session10c3\\Twitter\\Twitter\\Twitter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AcademyPgh\\Documents\\Session10c3\\Twitter\\Twitter\\Twitter.csproj": {
+    "C:\\Users\\AcademyPgh\\Documents\\Academy\\Session10c3\\Twitter\\Twitter\\Twitter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AcademyPgh\\Documents\\Session10c3\\Twitter\\Twitter\\Twitter.csproj",
+        "projectUniqueName": "C:\\Users\\AcademyPgh\\Documents\\Academy\\Session10c3\\Twitter\\Twitter\\Twitter.csproj",
         "projectName": "Twitter",
-        "projectPath": "C:\\Users\\AcademyPgh\\Documents\\Session10c3\\Twitter\\Twitter\\Twitter.csproj",
+        "projectPath": "C:\\Users\\AcademyPgh\\Documents\\Academy\\Session10c3\\Twitter\\Twitter\\Twitter.csproj",
         "packagesPath": "C:\\Users\\AcademyPgh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AcademyPgh\\Documents\\Session10c3\\Twitter\\Twitter\\obj\\",
+        "outputPath": "C:\\Users\\AcademyPgh\\Documents\\Academy\\Session10c3\\Twitter\\Twitter\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\AcademyPgh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

@@ -12,7 +12,7 @@ namespace Twitter
         public string sqlString = "";
         public bool signedIn = false;
         public bool exit = false;
-            //STOP IT FROM CREATING DUPLICATE USERS!!!!!
+            //need to prevent it creating multiple users
         public void CreateUser(SqlConnection connection)
         {
             Console.WriteLine("Enter new username: \n");
@@ -249,7 +249,7 @@ namespace Twitter
         }
         static void Main(string[] args)
         {
-            string filename = "C:\\Users\\AcademyPgh\\Documents\\Session10c3\\Twitter\\Twitter\\Database1.mdf";
+            string filename = "C:\\Users\\AcademyPgh\\Documents\\Academy\\Session10c3\\Twitter\\Twitter\\Database1.mdf";
             SqlConnection connection = new SqlConnection(@$"Data Source=(LocalDb)\MSSQLLocalDB; AttachDbFilename = {filename}; Integrated Security = True;MultipleActiveResultSets=True");
             //bool exit = false;
             Program twitter = new Program();
